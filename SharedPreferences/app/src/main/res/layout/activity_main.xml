@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cursorColor="@color/sky"
+        app:boxStrokeColor="@color/sky"
+        android:textColorHint="@color/sky"
+        app:hintTextColor="@color/sky"
+        app:endIconMode="clear_text"
+        android:layout_marginBottom="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:id="@+id/nameField"
+            android:textStyle="bold"
+            android:textColor="@color/sky"
+            android:textSize="20sp"
+            android:typeface="serif"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cursorColor="@color/sky"
+        app:boxStrokeColor="@color/sky"
+        android:textColorHint="@color/sky"
+        app:hintTextColor="@color/sky"
+        app:endIconMode="clear_text"
+        android:layout_marginBottom="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailField"
+            android:textStyle="bold"
+            android:textColor="@color/sky"
+            android:textSize="20sp"
+            android:typeface="serif"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cursorColor="@color/sky"
+        app:boxStrokeColor="@color/sky"
+        android:textColorHint="@color/sky"
+        app:hintTextColor="@color/sky"
+        app:endIconMode="clear_text"
+        app:counterTextColor="@color/sky"
+        app:counterEnabled="true"
+        app:counterMaxLength="17"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Voter ID"
+            android:inputType="number"
+            android:id="@+id/voterIdField"
+            android:textStyle="bold"
+            android:textColor="@color/sky"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:maxLength="17"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cursorColor="@color/sky"
+        app:boxStrokeColor="@color/sky"
+        android:textColorHint="@color/sky"
+        app:hintTextColor="@color/sky"
+        app:endIconMode="clear_text"
+        app:counterTextColor="@color/sky"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passport ID"
+            android:inputType="number"
+            android:id="@+id/passportIdField"
+            android:textStyle="bold"
+            android:textColor="@color/sky"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:maxLength="15"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cursorColor="@color/sky"
+        app:boxStrokeColor="@color/sky"
+        android:textColorHint="@color/sky"
+        app:hintTextColor="@color/sky"
+        app:endIconMode="clear_text"
+        app:counterTextColor="@color/sky"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student ID"
+            android:inputType="number"
+            android:id="@+id/studentIdField"
+            android:textStyle="bold"
+            android:textColor="@color/sky"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:maxLength="10"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save / Update"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textAllCaps="false"
+        android:textColor="@color/sky"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="15dp"
+        android:id="@+id/submitBtn"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Data"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textAllCaps="false"
+        android:textColor="@color/sky"
+        android:paddingVertical="15dp"
+        android:id="@+id/editBtn"
+        android:layout_marginVertical="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See From"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textAllCaps="false"
+        android:textColor="@color/sky"
+        android:paddingVertical="15dp"
+        android:id="@+id/nextPageBtn"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textAllCaps="false"
+        android:textColor="@color/sky"
+        android:paddingVertical="15dp"
+        android:id="@+id/resetBtn"
+        android:layout_marginTop="5dp"
+        />
+
+
+</LinearLayout>
