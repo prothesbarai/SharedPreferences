@@ -1,4 +1,4 @@
-// Should work on all notched (cutout) displays
+// Should work on all notched (cutout) displays 
 
 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P){
             WindowManager.LayoutParams layoutParams = getWindow().getAttributes();
