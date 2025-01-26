@@ -1,5 +1,6 @@
 // Should work on all notched (cutout) displays 
 
+
 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P){
             WindowManager.LayoutParams layoutParams = getWindow().getAttributes();
             layoutParams.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
