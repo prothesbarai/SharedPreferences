@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences(getString(R.string.app_name),MODE_PRIVATE);
         editor = sharedPreferences.edit();
 
-
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
